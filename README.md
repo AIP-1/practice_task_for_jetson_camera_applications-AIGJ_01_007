@@ -1,6 +1,10 @@
-# Jetson 카메라 응용 실습 8~10단계 (AIGJ_01_004)
+# Jetson 카메라 응용 실습 8~10단계 (AIGJ_01_007)
 
-Jetson Orin Nano와 USB 웹캠으로 진행한 EmbeddingGemma 2 실습의 카메라 응용 단계입니다. 웹캠 물체 추출과 검색(8단계), 사람 동작·행동 인식(9단계), 두 카메라 근접 알람(10단계)을 담았습니다. 1~7단계(텍스트·이미지·음성 임베딩)는 [embedding_gemma2-AIGJ_01_004](https://github.com/AIP-1/embedding_gemma2-AIGJ_01_004) 저장소에 있습니다. 실습 안내문은 [docs/guide_README.md](docs/guide_README.md)에 있습니다.
+Jetson Orin Nano와 USB 웹캠으로 진행한 EmbeddingGemma 2 실습의 카메라 응용 단계입니다. 웹캠 물체 추출과 검색(8단계), 사람 동작·행동 인식(9단계), 두 카메라 근접 알람(10단계)을 담았습니다. 1~7단계(텍스트·이미지·음성 임베딩)는 [embedding_gemma2-AIGJ_01_007](https://github.com/AIP-1/embedding_gemma2-AIGJ_01_007) 저장소에 있습니다. 실습 안내문은 [docs/guide_README.md](docs/guide_README.md)에 있습니다.
+
+## 함께 진행
+
+8~10단계는 AIGJ_01_004와 보드 B에서 함께 진행했습니다. 코드와 측정 결과는 공동 작업물이며, 같은 내용이 [practice_task_for_jetson_camera_applications-AIGJ_01_004](https://github.com/AIP-1/practice_task_for_jetson_camera_applications-AIGJ_01_004)에도 있습니다. 제가 따로 남긴 단계별 판정과 학습 노트는 [embedding_gemma2-AIGJ_01_007의 docs/reports](https://github.com/AIP-1/embedding_gemma2-AIGJ_01_007/tree/main/docs/reports)에 있습니다.
 
 ## 환경 (보드 B, team5-b)
 
