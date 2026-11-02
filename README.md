@@ -1,6 +1,6 @@
 # Jetson 카메라 응용 실습 8~10단계 (AIGJ_01_007)
 
-Jetson Orin Nano와 USB 웹캠으로 진행한 EmbeddingGemma 2 실습의 카메라 응용 단계입니다. 웹캠 물체 추출과 검색(8단계), 사람 동작·행동 인식(9단계), 두 카메라 근접 알람(10단계)을 담았습니다. 1~7단계(텍스트·이미지·음성 임베딩)는 [embedding_gemma2-AIGJ_01_007](https://github.com/AIP-1/embedding_gemma2-AIGJ_01_007) 저장소에 있습니다. 실습 안내문은 [docs/guide_README.md](docs/guide_README.md)에 있습니다.
+Jetson Orin Nano와 USB 웹캠으로 진행한 EmbeddingGemma 2 실습의 카메라 응용 단계입니다. 웹캠 물체 추출과 검색(8단계), 사람 동작·행동 인식(9단계), 두 카메라 근접 알람(10단계)을 담았습니다. 1~7단계(텍스트·이미지·음성 임베딩)는 [embedding_gemma2-AIGJ_01_007](https://github.com/AIP-1/embedding_gemma2-AIGJ_01_007) 저장소에 있습니다.
 
 ## 함께 진행
 
@@ -38,7 +38,6 @@ prox/               10단계 두 카메라 근접 알람
   check/                카메라 위치 변화 확인 이미지
 results/            8, 9, 10단계 측정 결과
 reports/            PDF 보고서 (9단계, 10단계, 1~10단계 전체)
-docs/               실습 안내문
 ```
 
 ## 주요 결과
@@ -75,4 +74,4 @@ docs/               실습 안내문
 - 9단계 `train_pose.py`: 표준편차가 0에 가까운 특징 때문에 실시간 판정이 틀어져서 `std.clamp(min=0.03)`으로 수정.
 - 10단계 카메라는 `--cams 0 2`(/dev/video0, /dev/video2), 렌즈 보정은 태블릿 체커보드(칸 22 mm, `--square 0.022`).
 
-학습된 모델(.pt), 카메라 보정 결과(.npz), 녹화 영상은 저장소에 넣지 않았습니다.
+학습된 모델(.pt), 카메라 보정 결과(.npz), 녹화 영상, 실습 안내문 원문(비공개 레포 AIP-1/embedding_gemma2)은 저장소에 넣지 않았습니다.
